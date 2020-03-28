@@ -16,15 +16,15 @@ public class MyMain {
         obj.insert(5);
         obj.insert(2);
         obj.insert(7);
+        obj.insert(9);
         obj.insert(6);
-        obj.insert(4);
         obj.insert(9);
         obj.insert(11);
-        obj.insert(8);
+        obj.insert(12);
         obj.preOrder(obj.root);
         System.out.println();
         obj.postOrder(obj.root);
         System.out.println("\nFirst statement is true");
-        System.out.println("secong statement is false as we didnt get the middle point same.");
+        System.out.println("secong statement is false because we didnt get the middle point same.");
     }
 }
