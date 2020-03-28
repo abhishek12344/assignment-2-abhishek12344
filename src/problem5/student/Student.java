@@ -7,4 +7,17 @@
 package problem5.student;
 // to store student information and properties
 public class Student {
+    public boolean getroll;
+
+    public boolean getRoll() {
+    }
+
+    public void setRoll(int roll) {
+    }
+
+    public boolean getName() {
+    }
+
+    public void setName(String name) {
+    }
 }
